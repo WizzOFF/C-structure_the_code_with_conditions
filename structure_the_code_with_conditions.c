@@ -7,10 +7,12 @@ int main(int argc, char *argv[])
     {
         printf ("Vous etes majeur !");
     }
+    else if ( age > 4 ) // Sinon, si l'âge est au moins supérieur à 4 
+    {
+        printf ("Bon t'es pas trop jeune quand meme...");
+    }
     else // Sinon...
     {
-        printf ("Ah c'est bete, vous etes mineur !");
+        printf ("Aga gaa aga gaaa"); // Langage bébé, vous pouvez pas comprendre
     }
-     
-    return 0;
 }
